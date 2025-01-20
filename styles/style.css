@@ -8,6 +8,115 @@
   font-style: normal;
 }
 /* nav bar styles part */
-.navbar{
+.display-flex{
     display: flex;
+
+}
+.menu-icon{
+    display: none;
+}
+/* .display-none{
+    display: none;
+} */
+
+.navbar{
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.logo-part{
+    display: flex;
+}
+.nav-links{
+            text-align: center;
+            margin-top: 40px;
+}
+.nav-item{
+    
+    list-style: none;
+
+}
+.item{
+   
+   
+}
+.nav-link-1{
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 2opx;
+    color: orange;
+    
+}
+.nav-link-2{
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: medium;
+    font-size: 2opx;
+    color: skyblue;
+        
+}
+.nav-link-3{
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: medium;
+    font-size: 2opx;
+    color: #05D4DF;
+    
+}
+.nav-link-4{
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: medium;
+    font-size: 2opx;
+    color: #5D58EF;
+    
+}
+.menu-icon div{
+    font-size: larger;
+    width: 40px;
+    height: 10px;
+    color: black;
+}
+/* .buton{
+    margin-top: 50px;
+} */
+.button-part{
+   margin-top: 20px;
+   font-weight: 600;
+   font-size: 20;
+   border-radius: 5px;
+   padding: 10px 60px;
+   background-color: orange;
+   color: white;
+   border-color: orange;
+}
+/* responsive styles for the navbar */
+@media screen and (max-width: 576px) {
+    .button{
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .navbar{
+        padding-left: 16px;
+        padding-top: 12px;
+        padding-right: 16px;
+        padding-bottom: 12px;
+        width: 100%;
+    }
+    .fa-solid fa-bars{
+        display: flex;
+    }
+    .school-title{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        padding: 50px 50px;
+    }
+    /* .display-none{
+        display: flex;
+    } */
 }
