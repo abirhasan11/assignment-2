@@ -7,6 +7,10 @@
   font-weight: 400;
   font-style: normal;
 }
+.max-width{
+    max-width: 1160px;
+    margin: 0 auto;
+}
 /* nav bar styles part */
 .display-flex{
     display: flex;
@@ -36,10 +40,7 @@
     list-style: none;
 
 }
-.item{
-   
-   
-}
+
 .nav-link-1{
     text-decoration: none;
     margin-right: 30px;
@@ -91,6 +92,62 @@
    color: white;
    border-color: orange;
 }
+
+
+/* heading part */
+.heading{
+    font-weight: 900;
+    font-size: 56px;
+    
+
+}
+.heading-explanation{
+    color: black;
+    font-size: 20;
+    margin-top: 24px;
+    
+    
+}
+.part-1{
+    font-weight: bold;
+    font-size: 56px;
+    color: orange;
+}
+.part-2{
+    font-weight: bold;
+    font-size: 56px;
+    color: skyblue;
+}
+.btn-primary{
+    background-color: black;
+    color: white;
+    padding: 10px 47px;
+    border-radius: 5px;
+}
+/* .details{
+    
+   
+    
+} */
+.details-container{
+    /* margin-top: 122PX;
+    margin-bottom: 122px; */
+    /* width: 900px;
+    margin: 0 auto; */
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+   
+   
+}
+.image{
+    
+    padding: 0px;
+}
+
+
+
 /* responsive styles for the navbar */
 @media screen and (max-width: 576px) {
     .button{
@@ -119,4 +176,27 @@
     /* .display-none{
         display: flex;
     } */
+}
+/* responsive for the container part of 2 */
+@media screen and (max-width: 576px) {
+    .details-container{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        /* margin: 20px; */
+        /* padding: 10px; */
+        padding: 16px;
+        
+    
+    }
+    .image{
+         /* width: 90%; */
+         margin-top: 20px;
+        /* padding: 16px; */
+    }
+      .title-1{
+       margin-bottom: 20px;
+     }
+          
+    
 }
