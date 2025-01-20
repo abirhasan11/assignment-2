@@ -185,17 +185,19 @@
         text-align: center;
         /* margin: 20px; */
         /* padding: 10px; */
-        padding: 16px;
-        
+        /* padding: 16px; */
+        margin: 18px;
     
     }
     .image{
          /* width: 90%; */
-         margin-top: 20px;
+         /* margin-top: 20px; */
         /* padding: 16px; */
-    }
+         margin: 0 auto;
+    } 
       .title-1{
-       margin-bottom: 20px;
+       /* margin-bottom: 20px; */
+       /* margin: 0 auto; */
      }
           
     
