@@ -273,6 +273,149 @@
 
     }
 
+
+ /* story styles part */
+ .our-stories{
+    background: url(../assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);;;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat; 
+   padding: 20px;
+ }
+ .story-container{
+    display: flex;
+    margin-top: 80px;
+    gap: 20px;
+ }
+ .image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* padding: 0 0 0 20px; */
+    gap: 15px;
+    margin-top: 10px;
+    /* margin-right: 20px; */
+    
+ }
+ .photo{
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 10px;
+    background: white;
+    margin-bottom: 120px;
+    max-width: 550px;
+    /* margin-left: 10px; */
+ }
+ .main-image .photo img{
+    border-radius: 16px 16px 0 0;
+ }
+ .title-font{
+    font-weight: bold;
+    font-size: 46px;
+    text-align: center;
+ }
+ .story1-title{
+   padding: 18px;
+   font-weight: bold;
+   font-size: 24px;
+ }
+ .story-explain{
+    padding: 20px 20px;
+    margin-top: 10px;
+    color: #666666;
+
+ }
+.photo-head{
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 5px;
+}
+.photo-1{
+    border: 1px solid rgb(255, 244, 220);
+    border-radius: 20px;
+    margin: 0px;
+    background: white;
+}
+.photo-1 img {
+    border-radius: 16px 16px 0 0;
+}
+.photo-2{
+    border: 1px solid rgb(255, 244, 220);
+    border-radius: 20px;
+    margin: 0px;
+    background: white;
+}
+.photo-2 img {
+    border-radius: 16px 16px 0 0;
+}
+.photo-3{
+    border: 1px solid rgb(255, 244, 220);
+    border-radius: 20px;
+    margin: 0px;
+    background: white;
+}
+.photo-3 img {
+    border-radius: 16px 16px 0 0;
+}
+.photo-4{
+    border: 1px solid rgb(255, 244, 220);
+    border-radius: 20px;
+    margin: 0px;
+    background: white;
+}
+.photo-4 img {
+    border-radius: 16px 16px 0 0;
+}
+.btn-class{
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    padding: 17px 38px;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+/* responsive for the stories part */
+@media screen and (max-width:576px) {
+    .photo{
+        display: none;
+    }
+    .our-stories .image-container{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+    .image-container img {
+        width: 100%;
+    }
+    .image-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .our-stories{
+        background-size: cover;
+    }
+    .btn-class{
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
     /* responsive for the curriculum */
     @media screen and (max-width: 576px) {
         .icon-2{
