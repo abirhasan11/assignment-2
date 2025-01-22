@@ -305,6 +305,7 @@ hr {
     gap: 20px;
  }
  .image-container{
+    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* padding: 0 0 0 20px; */
@@ -492,6 +493,7 @@ hr {
   /* footer styles */
     footer{
         background-color: #00aaff;
+        /* width: 100%; */
     }
     
     .footer {
@@ -502,10 +504,12 @@ hr {
         justify-content: space-around;
         align-items: flex-start;
         flex-wrap: wrap;
+        /* width: 100%; */
     }
 
     .footer-container {
         max-width: 300px;
+        width: 100%;
     }
 
     .logo-2 {
@@ -580,13 +584,17 @@ hr {
         height: 30px;
         /* margin-left: 5px; */
     }
+    /* .marquee-container{
+        width: 100%;
+        direction: left;
+    } */
     .marquee-tag{
         width: 99%;
-        direction: left;
-        background-color: #F0AA00;
+       background-color: #F0AA00;
         color: white;
         height: 40px;
         padding: 10px;
+        direction: left;
         margin: 0 auto;
     }
     /* responsive for footer  */
