@@ -10,6 +10,7 @@
 .max-width{
     max-width: 1160px;
     margin: 0 auto;
+    /* width: 100%; */
 }
 /* nav bar styles part */
 .display-flex{
@@ -19,9 +20,7 @@
 .menu-icon{
     display: none;
 }
-/* .display-none{
-    display: none;
-} */
+
 
 .navbar{
     justify-content: space-between;
@@ -518,7 +517,7 @@ hr {
     .logo-title {
         font-weight: bold;
         font-size: 30px;
-        /* line-height: 1.2; */
+        
     }
 
     .logo-para {
@@ -528,7 +527,7 @@ hr {
     .scl-explain {
         font-size: 14px;
         color: #FFFFFF;
-        /* line-height: 1.6; */
+        
     }
 
     .about-part {
@@ -558,7 +557,7 @@ hr {
 
     .social-media {
         max-width: 200px;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .social-media h3 {
@@ -574,7 +573,16 @@ hr {
     .social-media img {
         width: 30px;
         height: 30px;
-        margin-left: 5px;
+        /* margin-left: 5px; */
+    }
+    .marquee-tag{
+        width: 99%;
+        direction: left;
+        background-color: #F0AA00;
+        color: white;
+        height: 40px;
+        padding: 10px;
+        margin: 0 auto;
     }
     /* responsive for footer  */
      @media screen and (max-width: 576px) {
